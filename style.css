@@ -1,0 +1,108 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#eee;
+  font-family:Arial;
+}
+
+.card{
+  width:100%;
+  min-height: 600px;
+  max-width: 1200px;
+  position:relative; 
+  overflow:hidden;
+  border-radius:20px;
+  box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+.left{
+  width:60%;
+  height:100%;
+  background:#ffd400;
+
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+
+.right{
+  width:40%;
+  height:100%;
+  background:#f3e8c5;
+
+  position:absolute;
+  right:0;
+  top:0;
+}
+
+
+.content{
+  position:absolute;
+  left:60px;
+  top:150px;
+
+  width:350px;
+  z-index:2;
+}
+
+.content h4{
+  letter-spacing:5px;
+  margin-bottom:20px;
+}
+
+.content h1{
+  font-size:90px;
+  margin-bottom:20px;
+}
+
+.content p{
+  font-size:24px;
+  line-height:35px;
+}
+
+.pages{
+  position:absolute;
+  bottom: 100px;
+  left:80px;
+
+  font-size:20px;
+}
+
+
+.pikachu{
+  width:500px;
+
+  position:absolute;
+  right: 180px;
+  top:70px;
+
+  z-index:2;
+}
+
+.pokeball{
+  width:130px;
+
+  position:absolute;
+  left: 50px;
+  bottom: 00px;
+
+  z-index:1;
+}
+
+.menu{
+  position:absolute;
+  top:30px;
+  right:40px;
+
+  font-size:40px;
+}
