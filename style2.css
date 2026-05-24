@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+  padding-bottom: 60px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 80px;
+  background-color: #050505;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  color: #a0a0a0;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover, .nav-links .active-nav {
+  color: #ffffff;
+}
+
+.btn-get-started {
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #333;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 84px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 32px;
+  letter-spacing: -2px;
+}
+
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.filter-btn {
+  background-color: #141414;
+  color: #a0a0a0;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.2s;
+}
+
+.filter-btn.active {
+  background-color: #f24e1e; 
+  color: white;
+}
+
+
+.blog-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap; 
+}
+
+
+.blog-card {
+  flex: 1;
+  min-width: 300px;
+  background-color: #0b0b0b;
+  border-radius: 24px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 24px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.category-badge {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 13px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+
+.badge-tech { background-color: rgba(184, 60, 24, 0.2); color: #ff6b4a; }
+.badge-saas { background-color: rgba(184, 80, 24, 0.2); color: #ff854a; }
+.badge-marketing { background-color: rgba(184, 50, 50, 0.2); color: #ff5c5c; }
+
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #efefef;
+}
+
+
+.card-date {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  color: #555555;
+  font-size: 14px;
+}
